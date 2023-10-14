@@ -22,27 +22,27 @@ public class PeopleUserInterface {
         }
     }
 
-    private void printPeopleByAge(int age) {
+    private void printPeopleByAge() {
         System.out.println("List of people whose age exceeds the specified age:");
-        List<Person> peopleByAge = peopleOperations.getPersonByAge(age);
+        List<Person> peopleByAge = peopleOperations.getPersonByAge(2005);
         printPeople(peopleByAge);
     }
 
-    private void printPeopleByDegree(String degree) {
+    private void printPeopleByDegree() {
         System.out.println("\nList of people with high degree:");
-        List<Person> peopleByDegree = peopleOperations.getPersonByDegree(degree);
+        List<Person> peopleByDegree = peopleOperations.getPersonByDegree("Bachelor");
         printPeople(peopleByDegree);
     }
 
-    private void printPeopleByGender(String gender) {
+    private void printPeopleByGender() {
         System.out.println("\nList of male people:");
-        List<Person> peopleByGender = peopleOperations.getPersonByGender(gender);
+        List<Person> peopleByGender = peopleOperations.getPersonByGender("Man");
         printPeople(peopleByGender);
     }
 
     public void run() {
-        printPeopleByAge(2005);
-        printPeopleByDegree("Bachelor");
-        printPeopleByGender("Man");
+        printPeopleByAge();
+        printPeopleByDegree();
+        printPeopleByGender();
     }
 }

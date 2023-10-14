@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="com.asdeire.oop.practice2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_asdeire_oop_practice2_jar</output-path>
+    <root id="archive" name="com.asdeire.oop.practice2.jar">
+      <element id="module-output" name="com.asdeire.oop.practice2" />
+    </root>
+  </artifact>
+</component>

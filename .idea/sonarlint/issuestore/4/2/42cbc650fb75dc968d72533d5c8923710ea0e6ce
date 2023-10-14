@@ -1,9 +1,0 @@
-
-_
-java:S1192
-"IDefine a constant instead of duplicating this literal "Bachelor" 4 times.(ÆÐ™Ñ
-_
-java:S1192
-"IDefine a constant instead of duplicating this literal "Uzhhorod" 6 times.(ÆÐ™Ñ
-U
-java:S1118":Add a private constructor to hide the implicit public one.(”áþÒûÿÿÿÿ
