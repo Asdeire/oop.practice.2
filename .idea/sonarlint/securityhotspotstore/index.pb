@@ -42,3 +42,7 @@ w
 G.idea/sonarlint/issuestore/6/0/6040f823b8f1e9bed29049d5a082a70104c6ac23,8\f\8f3a516be2f0be384a503743e2b648070644fb29
 M
 com.asdeire.oop.practice2.iml,8\2\82555aa96eea809085a908cbc8295b1812d7a745
+H
+src/META-INF/MANIFEST.MF,e\4\e4b1fd2293ba1e598e6bec4e0ee3b6b6851eb5a2
+a
+1.idea/artifacts/com_asdeire_oop_practice2_jar.xml,6\f\6f91b7735ed75f313e9df7bd654ed1cff3e8becb
